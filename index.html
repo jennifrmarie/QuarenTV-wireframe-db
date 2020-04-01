@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard Wireframe</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+    <section>
+        <header>
+            <h3>What do you want to watch?</h3>
+            <form class='watch-form'>
+                <div>
+                  <label for="title">Title</label>
+                  <input placeholder='Title' type="text" name='title' id='title' />
+                </div>
+                <div>
+                  <label for="streaming-service">Streaming Service</label>
+                  <select id="streaming-service" name="streaming-service">
+                    <option value="netflix">Netflix</option>
+                    <option value="hulu">Hulu</option>
+                    <option value="amazon-prime">Amazon Prime</option>
+                    <option value="hbo">HBO</option>
+                    <option value="showtime">showtime</option>
+                    <option value="other">other</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="watched">watched</label>
+                  <input type="checkbox" name='checkbox' id='checkbox' />
+                  <button>delete</button>
+                </div>
+                <button type='submit'>Add to list</button>
+            </form>
+        </header>
+        <p>[<em>placeholder for list of what to watch</em>]</p>
+      </section>
+      <section>
+        <header>
+            <h3>Scoreboard</h3>
+        </header>
+        <p>[<em>placeholder for scoreboard</em>]</p>
+        <p>Earn badges for staying home</p>
+      </section>
+    </main>
+    <footer role="content-info">Footer</footer>
+</body>
+</html>
